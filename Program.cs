@@ -23,10 +23,10 @@ namespace tp7_ejr1
         }
         static int factorial( int num)
         {
-            int acumulador = 0;
-            for (int i = 1; i < num; i++)
+            int acumulador = 1;
+            for (int i = 1; i <= num; i++)
             {
-                acumulador = num * i;
+                acumulador = acumulador * i;
             }
             return acumulador;
         }
